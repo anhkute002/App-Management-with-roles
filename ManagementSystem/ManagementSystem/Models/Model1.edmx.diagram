@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="401ca5b9e8a1418cad7f5120ee5a5119" Name="Diagram1">
+        <EntityTypeShape EntityType="tuananhModel.CourceCategory" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tuananhModel.Course" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tuananhModel.CourseDetail" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tuananhModel.Enrollment" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="tuananhModel.sysdiagram" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="tuananhModel.Topic" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="tuananhModel.Trainee" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="tuananhModel.Trainer" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="tuananhModel.User" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="tuananhModel.FK_Course_CourceCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="tuananhModel.FK_CourseDetail_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="tuananhModel.FK_Enrollment_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="tuananhModel.FK_CourseDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="tuananhModel.FK_Enrollment_Trainer" ManuallyRouted="false" />
+        <AssociationConnector Association="tuananhModel.FK_Trainee_User" ManuallyRouted="false" />
+        <AssociationConnector Association="tuananhModel.FK_Trainer_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
